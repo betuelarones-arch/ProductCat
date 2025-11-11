@@ -1,4 +1,8 @@
 package com.tecsup.repository;
 
-public interface CategoriaRepository {
+import com.tecsup.model.Categoria;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoriaRepository extends JpaRepository<Categoria, Long> {
+
 }
